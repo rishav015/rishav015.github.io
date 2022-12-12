@@ -5,21 +5,21 @@
   /*=======Main theme colors=======*/
       --first-color:#0e2431;
       /* --second-color:#6a59d1; */
-      --second-color:  rgb(56 53 50);
+      --second-color:  rgb(207, 125, 43);
     
       --third-color:#777;
 
   
       /*=======Hover colors=======*/
-  --hover-color:rgb(245, 47, 47);
+  --hover-color:rgb(0, 0, 0);
 
   /*=======Background colors=======*/
   
   --body-bg-color:#fefefe;
   --card-bd-color:#fff;
   --modal-bg-color:#fff;
-  --bg-transparent-color:rgba(0,0,0,0.1);
-  --transparent-color-01:rgba(0,0,0,0.1);
+  --bg-transparent-color:rgba(141, 37, 37, 0.1);
+  --transparent-color-01:rgba(217, 51, 51, 0.1);
   --transparent-color-02:rgba(106,89,209,0.1);
   --line-color:#d7d7d7;
 
@@ -165,7 +165,7 @@ header.sticky .nav-bar{
 /*=======Home section=======*/
 
 .blr{
-  background-image: url(/gallery/java.jpg);
+  background-image: url(/gallery/j);
 }
 
 .home{
@@ -184,7 +184,7 @@ header.sticky .nav-bar{
 .blr1{
   width: 100%;
   height: 100vh;
-  background: rgba(40, 39, 37, 90%);
+  background: rgba(0, 0, 0, 0.9);
   justify-content: center;
   align-items: center;
 }
@@ -204,9 +204,9 @@ header.sticky .nav-bar{
   border-radius: 50%;
 }
 
-@font-face {
-  font-family:serif;
-}
+/* @font-face {
+  font-family: serif;
+} */
 
 #Mfont span{
   font-family: serif;
@@ -217,13 +217,13 @@ header.sticky .nav-bar{
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-weight: 15px;
-  color: red;
+  color: rgb(203, 194, 194);
 }
 
 
 
 #Mfont {
-  color: #faf8f8;
+  color: #a69999;
   /* border: 2px solid blue; */
 
   
@@ -243,7 +243,7 @@ header.sticky .nav-bar{
 
 .home .home-container1{
   display: flex;
-  color: #fefefe;
+  color: #b7a8a8;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -636,7 +636,7 @@ height: 150px;
   background: var(--card-bg-color);
   border-bottom: 3px solid var(--second-color);
   padding: 30px;
-  border-radius: 6px;
+  border-radius: 20px;
   box-shadow: var(--box-shadow);
 }
 
