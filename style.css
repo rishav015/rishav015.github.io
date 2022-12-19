@@ -454,7 +454,7 @@ color: var(--second-color);
  margin: 10px 0 22px;
 }
 
-.edu-list .item:hover, .bar:hover, .experience-card:hover ,.service-card1:hover, .service-card:hover,.pcard:hover,.calender:hover{
+.edu-list .item:hover, .bar:hover, .experience-card:hover ,.service-card1:hover, .service-card:hover,.pcard:hover,.content1:hover{
   transform: scale(1.03);
   
 }
@@ -695,10 +695,13 @@ height: 150px;
 /*=======Our Clients     section=======*/
 
 
-
 .pro-icon i{
   color: black;
 }
+.pro-icon i:hover{
+  color: orangered;
+}
+
 
 /*=======Contact section=======*/
 .contact .container .content{
@@ -924,7 +927,8 @@ footer a{
   .nav-close-btn{
     position: absolute;
     background: url(../images/close-btn.png)no-repeat;
-    filter: var(--color-filter);
+    /* filter: var(--color-filter); */
+    content:"\f00d";
     background-size: 12px;
     background-position: center;
     width: 40px;
@@ -936,12 +940,13 @@ footer a{
   }
 
   .nav-menu-btn{
-    background: url(../images/menu-btn.png)no-repeat;
-    filter: var(--color-filter);
+    /* background: url(../images/menu-btn.png)no-repeat; */
+    /* filter: var(--color-filter); */
     background-size: 30px;
     background-position: center;
     width: 40px;
     height: 40px;
+    margin-top: 10px;
     cursor: pointer;
     display: block;
   }

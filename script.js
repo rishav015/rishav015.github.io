@@ -23,5 +23,5 @@ navItem.forEach((navItem)=>{
     navItem.addEventListener("click", ()=>{
         navigation.classList.remove("active");
     })
-})
+});
 
