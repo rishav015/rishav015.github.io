@@ -1098,6 +1098,9 @@ footer a{
   width: 60%;
   margin: auto;
 }
+.nav-items{
+  width: 300px;
+}
   .section-title-01{
     font-size: 3em;
   }
@@ -1181,6 +1184,9 @@ footer a{
     text-align: center;
     margin: auto;
     width: 50%;
+}
+.nav-items{
+  width: 300px;
 }
   .profile-thumb {
     background-size: cover !important;
