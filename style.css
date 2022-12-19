@@ -246,6 +246,8 @@ header.sticky .nav-bar{
   justify-content: center;
   align-items: center;
   width: 70%;
+  margin: auto; 
+  margin-top: 120px;
 }
 
 
@@ -268,8 +270,16 @@ header.sticky .nav-bar{
 .home-container1 .media-icons a:hover{
 color: var(--hover-color);
 }
+.stats {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+}
 
-
+.stats img{
+  width: 100%;
+}
 .btn{
   background: var(--second-color);
   color: #fff;
@@ -1103,3 +1113,85 @@ footer a{
 
   /*=======Get-in-touch section=======*/
 }
+
+/*=======Media query max-width 375px=======*/
+@media screen and (max-width: 375px){
+  /*=======Common styles for all sections=======*/
+  body{
+    margin: 5rem 0 0 0;
+  }
+  .blr1 {
+    width: 100%;
+    height: 100vh;
+    background: rgba(192, 191, 191, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+  .home .home-container1{
+    margin:auto;
+    margin-top: 0px;
+  }
+
+  .profile-thumb {
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+  .section-title-01{
+    font-size: 3em;
+  }
+
+  .section-title-02{
+    font-size: 2em;
+    transform: translateY(-65px);
+  }
+
+
+
+  /*=======Home section=======*/
+
+  .home .home-container{
+    display: grid;
+  }
+    
+  .home-container .home-img{
+    position: absolute;
+  }
+
+  .home-container .home-img img{
+    width: 100%;
+    transform: translate(80px, -180px);
+  }
+
+  .home .home-container .info{
+    font-size: 0.8rem;
+    
+  }
+
+  .media-icons{
+    margin-bottom: 80px;
+  }
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////// */
+
+
+
+  /*=======Get-in-touch section=======*/
+}
+
+
