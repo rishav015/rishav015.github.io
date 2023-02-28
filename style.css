@@ -628,7 +628,7 @@ height: 150px;
        text-align: center;
       flex-direction: column;
   }
- 
+  
 }
 
 
@@ -639,24 +639,26 @@ height: 150px;
   display: flex;
   gap: 50px;
   margin: 50px 0px;
-  /* border: 1px solid blue; */
-
   background: var(--card-bg-color);
-  /* border-bottom: 3px solid var(--second-color); */
+  border-bottom: 2px solid var(--second-color);
   padding: 30px;
   border-radius: 20px;
   box-shadow: var(--box-shadow);
   transition: .3s ease;
 }
 
-
+/* .project-container12{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+} */
 
 
 
 
 .client-img{
-  width: 500px;
-  height: 400px;
+  width: 600px;
+  height: 350px;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -688,7 +690,6 @@ height: 150px;
   color: var(--third-color);
   font-size: 1.1em;
 }
-
 
 
 .pro-icon{
@@ -954,13 +955,24 @@ footer a{
     /* filter: var(--color-filter); */
     background-size: 30px;
     background-position: center;
-    width: 40px;
+    width: 10px;
     height: 40px;
     margin-top: 10px;
     cursor: pointer;
     display: block;
   }
-
+  .pcard {
+    /* padding: 30px; */
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+    background: var(--card-bg-color);
+    border-bottom: 2px solid var(--second-color);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    transition: .3s ease;
+}
   /*=======Home section=======*/
   .home .home-container .info{
     font-size: 0.85rem;
@@ -1075,7 +1087,7 @@ footer a{
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 20px;
     padding: 0 20px;
     transition: .6s ease;
 }
@@ -1089,9 +1101,15 @@ footer a{
   width: 70%;
 }
 #pimg {
-  width: 60%;
+  width: 100%;
   /* height: 150px; */
   border: 5px solid green;
+}
+.client-img{
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 .client-details {
   text-align: center;
@@ -1099,7 +1117,7 @@ footer a{
   margin: auto;
 }
 .nav-items{
-  width: 300px;
+  width: 600px;
 }
   .section-title-01{
     font-size: 3em;
@@ -1165,9 +1183,16 @@ footer a{
 }
   .home .home-container1{
     margin:auto;
-    margin-top: 0px;
+    margin-top: 10px;
   }
 
+  #Mfont{
+    color: #030101;
+    font-family: serif;
+    margin-bottom: 40px;
+    font-size: 30px;
+    transform: rotate(-0.5deg);
+  }
   .pcard{
     width: 100%;
   }
@@ -1175,10 +1200,27 @@ footer a{
     margin: auto;
     width: 70%;
   }
+  .project-container12{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
   #pimg {
-    width: 60%;
+    width: 100%;
     /* height: 150px; */
     border: 5px solid green;
+}
+
+
+.client-img{
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.client-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
   .client-details {
     text-align: center;
