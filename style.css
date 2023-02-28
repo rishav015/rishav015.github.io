@@ -121,7 +121,9 @@ header.sticky{
 .nav-bar{
   position: relative;
   height: calc(3rem + 1rem);
-  max-width: 1250px;
+  max-width: 100%;
+  background-color: #2f2e2d;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -913,7 +915,7 @@ footer a{
 
   .nav-items{
     position: relative;
-    background: var(--modal-bg-color);
+    background: black;
     width: 600px;
     max-width: 600px;
     display: flex;
@@ -1087,7 +1089,7 @@ footer a{
     justify-content: space-between;
     align-items: center;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: auto;
     padding: 0 20px;
     transition: .6s ease;
 }
